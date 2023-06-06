@@ -15,7 +15,7 @@ and the Flutter guide for
 AppBar with Animation SearchBar.
 
 # Preview
-https://github.com/ZianFahrudy/GoodSearchAppBar/assets/45583824/872a818e-c3bb-4d48-8abf-20c6aab4cd48
+![goodsearchappbar](https://github.com/ZianFahrudy/GoodSearchAppBar/assets/45583824/66fa5cc7-a3ba-404c-99b7-391c81575141)
 
 ## Installation
 
