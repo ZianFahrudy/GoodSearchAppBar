@@ -24,7 +24,7 @@ In the `pubspec.yaml` of your flutter project, add the following dependency:
 ``` yaml
 dependencies:
   ...
-  good_search_appbar: ^0.0.1
+  good_search_appbar: ^0.0.2
 ```
 
 ## Basic example
