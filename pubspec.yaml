@@ -1,7 +1,7 @@
 name: good_search_appbar
 description: AppBar with SearchBar Animation
 version: 0.0.1
-homepage: https://zianfahrudy.my.id
+homepage: https://github.com/ZianFahrudy/GoodSearchAppBar
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
