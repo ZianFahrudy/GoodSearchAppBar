@@ -153,7 +153,7 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
                           style: widget.labelStyle ??
                               Theme.of(context)
                                   .textTheme
-                                  .headline6!
+                                  .headlineSmall!
                                   .copyWith(color: Colors.white),
                           textAlign: TextAlign.start,
                         ),
