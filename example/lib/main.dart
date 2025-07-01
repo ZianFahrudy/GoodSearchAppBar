@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
 import 'package:good_search_appbar/good_search_appbar.dart';
 
@@ -110,9 +108,10 @@ class SearchPage extends StatelessWidget {
     return Scaffold(
       appBar: GoodSearchAppBar(
         title: 'Search',
-        onSearchChanged: (query) {
-          log(query);
-        },
+        filter: true,
+        leading: false,
+        labelStyle: const TextStyle(),
+        onSearchChanged: (query) {},
       ),
       body: const Center(
         child: Text('Search Page'),

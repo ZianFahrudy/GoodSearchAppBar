@@ -24,6 +24,7 @@ class GoodSearchAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.elevation,
     this.backgroundColor,
     this.foregroundColor,
+    this.centerTitle = true,
   }) : super(key: key);
 
   final String title;
@@ -44,6 +45,7 @@ class GoodSearchAppBar extends StatelessWidget implements PreferredSizeWidget {
   final double? elevation;
   final Color? backgroundColor;
   final Color? foregroundColor;
+  final bool? centerTitle;
 
   @override
   Widget build(BuildContext context) {
@@ -56,6 +58,7 @@ class GoodSearchAppBar extends StatelessWidget implements PreferredSizeWidget {
         cursorColor: cursorColor,
         filter: filter,
         filterIcon: filterIcon,
+        centerTitle: centerTitle,
         hintStyle: hintStyle,
         hintText: hintText,
         labelStyle: labelStyle,

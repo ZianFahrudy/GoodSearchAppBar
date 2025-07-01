@@ -25,6 +25,7 @@ class SearchBarWidget extends StatefulWidget {
     this.filterIcon,
     this.hintStyle,
     this.cursorColor,
+    this.centerTitle = true,
   }) : super(key: key);
 
   final String label;
@@ -39,6 +40,7 @@ class SearchBarWidget extends StatefulWidget {
   final String? hintText;
   final TextStyle? hintStyle;
   final Color? cursorColor;
+  final bool? centerTitle;
 
   @override
   State createState() => _SearchBarWidgetState();
@@ -148,6 +150,9 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
                       key: const ValueKey('align'),
                       height: 60,
                       child: Align(
+                        alignment: widget.centerTitle!
+                            ? Alignment.center
+                            : Alignment.centerLeft,
                         child: Text(
                           widget.label,
                           style: widget.labelStyle ??
