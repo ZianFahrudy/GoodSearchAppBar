@@ -1,6 +1,6 @@
 name: good_search_appbar
 description: AppBar widget with simple animation searching for Flutter
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/ZianFahrudy/GoodSearchAppBar
 
 environment:

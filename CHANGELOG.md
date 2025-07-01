@@ -1,3 +1,5 @@
+## 0.0.4
+* add center title
 ## 0.0.3
 * update readme
 * update to dart 3.0.0
